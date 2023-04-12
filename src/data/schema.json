@@ -1,0 +1,76 @@
+{
+  "_id": 11354,
+  "name": "Nike Men's SweatShirt",
+  "slogan": "Stay comfortable and stylish with the Nike Men's SweatShirt.",
+  "description": "The Nike Men's SweatShirt is the perfect blend of comfort and style. Made with high-quality materials, it is designed to keep you warm and cozy on those chilly days, while also making a fashion statement.",
+  "category": "Clothing",
+  "default_price": 159,
+  "styles": [
+    {
+      "name": "Classic",
+      "sale_price": null,
+      "original_price": 199,
+      "default_style": 0,
+      "photos": [
+        {
+          "url": "https://www.randomphotos.com/12345",
+          "thumbnail_url": "https://www.randomphotos.com/thumbnail/12345"
+        },
+        {
+          "url": "https://www.randomphotos.com/10010",
+          "thumbnail_url": "https://www.randomphotos.com/thumbnail/10010"
+        }
+      ],
+      "skus": [
+        { "size": "XS", "quantity": 22 },
+        { "size": "M", "quantity": 5 },
+        { "size": "XXL", "quantity": 11 }
+      ]
+    },
+    {
+      "name": "Tech",
+      "sale_price": 59,
+      "original_price": 129,
+      "default_style": 1,
+      "photos": [
+        {
+          "url": "https://www.randomphotos.com/11111",
+          "thumbnail_url": "https://www.randomphotos.com/thumbnail/11111"
+        },
+        {
+          "url": "https://www.randomphotos.com/10101",
+          "thumbnail_url": "https://www.randomphotos.com/thumbnail/10101"
+        }
+      ],
+      "skus": [
+        { "size": "S", "quantity": 2 },
+        { "size": "M", "quantity": 3 },
+        { "size": "L", "quantity": 4 }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "name": "Material",
+      "value": "80% cotton, 20% polyester"
+    },
+    {
+      "name": "Fit",
+      "value": "Regular fit"
+    },
+    {
+      "name": "Pockets",
+      "value": "Front kangaroo pocket"
+    },
+    {
+      "name": "Hood",
+      "value": "Adjustable drawstring hood"
+    },
+    {
+      "name": "Cuffs",
+      "value": "Ribbed cuffs and hem"
+    }
+  ],
+  "characteristics": ["Fit", "Comfort", "Width"],
+  "related": [11344, 12234, 11901]
+}
