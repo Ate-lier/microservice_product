@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "fetch": "bash CSV/fetch.sh",
-    "etl": "node dist/ETL/index.js"
+    "etl": "node dist/ETL/index.js",
+    "server": "node dist/index.js"
   },
   "repository": {
     "type": "git",
