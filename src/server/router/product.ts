@@ -1,19 +1,7 @@
-// add router, we only have GET /products/:product_id
 import express from 'express';
-import { findProduct } from '../../middleware/product';
+import { getProductById } from '../../middleware/product';
 const router = express.Router();
 
-router.get('/:productId', findProduct);
+router.get('/:productId', getProductById);
 
 export default router;
-/*
-middleware/
-    auth.ts
-    logger.ts
-    product.ts
-
-
-    router.get('\route1', middleware1)
-    router.get('\route2', middleware2)
-*/
-
