@@ -1,8 +1,10 @@
 import express from 'express';
+import compression from 'compression';
 import productRouter from './router/product';
 import { errorHandler } from '../middleware/error';
 
 const app = express();
+app.use(compression({ level: 1 }));
 app.use('/products', productRouter);
 
 // set up a testing route
