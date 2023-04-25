@@ -9,8 +9,6 @@
     "removeComments": true,
     "noEmitOnError": true,
     "forceConsistentCasingInFileNames": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noImplicitOverride": true,
     "allowUnreachableCode": false,

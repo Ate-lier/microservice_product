@@ -2,3 +2,4 @@ node_modules/
 dist/
 .env
 CSV/files/
+test_coverage/

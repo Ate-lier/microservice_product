@@ -5,14 +5,19 @@ import { getDatabase } from './client';
 export async function queryProductById(id: number): Promise<any> {
   const database = getDatabase();
   const collection = database.collection('products');
-  
-  const document = await collection.findOne({ product_id: id });
-  
+
+  // _id is useless in our case
+  const document = await collection.findOne(
+    { product_id: id },
+    { projection: { _id: 0} }
+  );
+
   // Will call some other fucntions/API here, refactor later
 
   return document;
 }
 
-//// this function is only called from transaction microserive
+// this function is only called from transaction microserive
+
 //async function updateSkus() {}
 
